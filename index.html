@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Dashboard</title>
+</head>
+<body>
+
+<main>
+
+    <div class="menu">
+        <div class="menu__title">
+            Dashboard
+        </div>
+        <div class="menu__options">
+            <div class="menu__options__top">
+                <div class="menu__options__top__overview menu__options__top_each"><i class="fas fa-home menu__options__top__icon"></i>Overview</div>
+                <div class="menu__options__top__stats menu__options__top_each"><i class="far fa-chart-bar menu__options__top__icon"></i>Stats</div>
+                <div class="menu__options__top__projects menu__options__top_each menu__options__top_selected"><i class="fas fa-folder-open menu__options__top__icon"></i>Projects</div>
+                <div class="menu__options__top__chat menu__options__top_each"><i class="fas fa-comment menu__options__top__icon"></i>Chat<span class="menu__options__top__chat__number">2</span></div>
+                <div class="menu__options__top__calender menu__options__top_each"><i class="fas fa-calendar-alt menu__options__top__icon"></i>Calender</div>
+            </div>
+            <div class="menu__options__bottom">
+                <div class="menu__options__bottom__settings menu__options__bottom_each"><i class="fas fa-cog menu__options__bottom__icon"></i>Settings</div>
+                <div class="menu__options__bottom__logout menu__options__bottom_each"><i class="fas fa-sign-out-alt menu__options__bottom__icon"></i>Log out</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="menu-mobile">
+        <div class="menu__title menu-mobile__title">
+            <i class="fas fa-list"></i>
+        </div>
+        <div class="menu__options">
+            <div class="menu__options__top">
+                <div class="menu__options__top__overview menu__options__top_each"><i class="fas fa-home menu__options__top__icon menu-mobile__options__top__icon"></i></div>
+                <div class="menu__options__top__stats menu__options__top_each"><i class="far fa-chart-bar menu__options__top__icon menu-mobile__options__top__icon"></i></div>
+                <div class="menu__options__top__projects menu__options__top_each menu__options__top_selected"><i class="fas fa-folder-open menu__options__top__icon menu-mobile__options__top__icon"></i></div>
+                <div class="menu-mobile__options__top__chat menu__options__top_each"><i class="fas fa-comment menu__options__top__icon menu-mobile__options__top__icon menu-mobile__options__top__chat__icon"></i><!--<span class="menu-mobile__options__top__chat__number">2</span>--></div>
+                <div class="menu__options__top__calender menu__options__top_each"><i class="fas fa-calendar-alt menu__options__top__icon menu-mobile__options__top__icon"></i></div>
+            </div>
+            <div class="menu__options__bottom">
+                <div class="menu__options__bottom__settings menu__options__bottom_each"><i class="fas fa-cog menu__options__bottom__icon menu-mobile__options__top__icon"></i></div>
+                <div class="menu__options__bottom__logout menu__options__bottom_each"><i class="fas fa-sign-out-alt menu__options__bottom__icon menu-mobile__options__top__icon"></i></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-part">
+        <nav class="nav-bar">
+           <ul class="nav-bar__ul">
+               <li class="nav-bar__ul__li nav-bar__search"><i class="fas fa-search menu__options__top__icon"></i>Search</li>
+               <li class="nav-bar__ul__li nav-bar__question"><i class="far fa-question-circle menu__options__top__icon"></i></li>
+               <li class="nav-bar__ul__li nav-bar__bell black-color"><i class="far fa-bell menu__options__top__icon"></i></li>
+               <li class="nav-bar__ul__li nav-bar__name black-color">Pasha Ahmadi<i class="fas fa-angle-down nav-bar__name__icon-arrow-down"></i></li>
+               <li class="nav-bar__ul__li nav-bar__profile"><img class="nav-bar__profile__img" src="./assets/images/pasha.jpg" alt="Pasha Ahmadi" /></li>
+           </ul>
+        </nav>
+        <section class="project-section">
+
+            <div class="project-section__header">
+                <div class="project-section__title">Projects</div>
+                <div class="project-section__projects">This Week<i class="fas fa-angle-down nav-bar__name__icon-arrow-down"></i></div>
+            </div>
+            <div class="project-section__body">
+                <div class="box todo-box">
+                    <div class="box-title">
+                        <div class="box-title__text">To do</div>
+                        <div class="box-title__number">2</div>
+                    </div>
+                    <div class="box-add">+</div>
+                    <div class="box-tasks">
+                        <div class="box-tasks__title"><div class="box-tasks__title__dot">&bullet;</div> <div class="box-tasks__title__text">Designs</div><i class="fas fa-paperclip"></i></div>
+                        <div class="box-tasks__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium distinctio dolor dolorum est non omnis placeat quam, saepe! Amet at beatae dolor facere illum mollitia obcaecati officiis repudiandae unde veniam?
+                            <div class="box-tasks__responsibles">
+                                <div class="box-tasks__responsibles__resp box-tasks__responsibles__resp1">pa</div>
+                                <div class="box-tasks__responsibles__resp box-tasks__responsibles__resp2">al</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="box-tasks">
+                        <div class="box-tasks__title"><div class="box-tasks__title__dot">&bullet;</div> <div class="box-tasks__title__text">Development</div><i class="fas fa-paperclip"></i></div>
+                        <div class="box-tasks__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium distinctio dolor dolorum est non omnis placeat quam, saepe! Amet at beatae dolor facere illum mollitia obcaecati officiis repudiandae unde veniam?
+                            <div class="box-tasks__responsibles">
+                                <div class="box-tasks__responsibles__resp box-tasks__responsibles__resp1">pa</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box progress-box">
+                    <div class="box-title">
+                        <div class="box-title__text">In progress</div>
+                        <div class="box-title__number">1</div>
+                    </div>
+                    <div class="box-add">+</div>
+                    <div class="box-tasks">
+                        <div class="box-tasks__title"><div class="box-tasks__title__dot">&bullet;</div> <div class="box-tasks__title__text">Develpment</div><i class="fas fa-paperclip"></i></div>
+                        <div class="box-tasks__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.obcaecati officiis repudiandae unde veniam?
+                            <div class="box-tasks__responsibles">
+                                <div class="box-tasks__responsibles__resp box-progress__responsibles__resp1">pa</div>
+                                <div class="box-tasks__responsibles__resp box-progress__responsibles__resp2">al</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="box complete-box">
+                    <div class="box-title">
+                        <div class="box-title__text">Completed</div>
+                        <div class="box-title__number">0</div>
+                    </div>
+                    <div class="box-add">+</div>
+                    <div class="box-tasks-empty">
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <nav class="nav-bar-mobile">
+        <ul class="nav-bar-mobile__ul">
+            <li class="nav-bar__ul__li nav-bar__search"><i class="fas fa-search menu-mobile__options__top__icon"></i></li>
+            <li class="nav-bar__ul__li nav-bar-mobile__question"><i class="far fa-question-circle menu-mobile__options__top__icon"></i></li>
+            <li class="nav-bar__ul__li nav-bar__bell black-color"><i class="far fa-bell menu-mobile__options__top__icon"></i></li>
+            <li class="nav-bar__ul__li nav-bar__name black-color">Pasha</li>
+        </ul>
+    </nav>
+</main>
+
+
+</body>
+</html>
